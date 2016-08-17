@@ -192,7 +192,7 @@ class DatastoreAPI(Actor):
             # directly.
             cmd = [sys.executable, "-m", "calico.etcddriver"]
         # etcd driver takes the felix socket name as argument.
-        cmd = ["/home/gulfstream/go-work/src/github.com/tigera/"
+        cmd = ["/home/ubuntu/go/src/github.com/tigera/"
                "libcalico-go/bin/felix-backend"]
         cmd += [sck_filename]
         return cmd
